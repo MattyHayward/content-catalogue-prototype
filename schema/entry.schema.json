@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tech.gov.uk/schema/guidance-catalogue/v0/entry.schema.json",
+  "title": "Catalogue entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "title", "short_description", "long_description",
+    "type", "tags", "professions", "owner", "source"
+  ],
+  "properties": {
+    "id": { "$ref": "#/$defs/id" },
+    "title": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "short_description": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "long_description": { "type": "string", "minLength": 1, "maxLength": 1200 },
+    "type": { "$ref": "#/$defs/key" },
+    "tags": { "$ref": "#/$defs/keys" },
+    "professions": { "$ref": "#/$defs/keys" },
+    "status": { "enum": ["current", "draft", "withdrawn"], "default": "current" },
+    "applies_to": { "type": "string", "minLength": 1, "maxLength": 300 },
+    "related": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/id" }
+    },
+    "owner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["organisation"],
+      "properties": {
+        "organisation": { "type": "string", "minLength": 1 },
+        "team": { "type": "string", "minLength": 1 },
+        "contact": {
+          "type": "object",
+          "additionalProperties": false,
+          "minProperties": 1,
+          "properties": {
+            "email": { "type": "string", "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$" },
+            "url": { "type": "string", "pattern": "^https://" },
+            "slack": { "type": "string", "pattern": "^#[a-z0-9_-]+$" }
+          }
+        }
+      }
+    },
+    "source": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "url"],
+          "properties": {
+            "kind": { "const": "repo" },
+            "url": { "type": "string", "pattern": "^https://github\\.com/[A-Za-z0-9-]+/[A-Za-z0-9._-]+/?$" },
+            "branch": { "type": "string", "minLength": 1, "default": "main" },
+            "path": { "type": "string", "pattern": "^[A-Za-z0-9._-]+(/[A-Za-z0-9._-]+)*$" },
+            "ref": { "type": "string", "minLength": 1 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "path"],
+          "properties": {
+            "kind": { "const": "path" },
+            "path": { "type": "string", "pattern": "^content/[a-z0-9]+(-[a-z0-9]+)*(/[a-z0-9]+(-[a-z0-9]+)*)*$" }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "url"],
+          "properties": {
+            "kind": { "const": "link" },
+            "url": { "type": "string", "pattern": "^https://" }
+          }
+        }
+      ]
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 60 },
+    "key": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "keys": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/key" }
+    }
+  }
+}

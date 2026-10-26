@@ -1,0 +1,19 @@
+# Example of guidance held in this repository.
+id: incident-reviews
+title: Running a blameless incident review
+short_description: A step-by-step method for learning from incidents without blaming people
+long_description: >-
+  An incident review helps a team understand what happened during an
+  incident, why it made sense to the people involved at the time, and what
+  to change so it is less likely or less harmful next time. This method takes
+  you through preparing, running and following up a blameless review.
+type: method
+tags: [incident-management, devops, monitoring]
+professions: [it-operations, engineering]
+owner:
+  organisation: Government Digital Service
+  team: Technology Excellence
+source:
+  kind: path
+  path: content/incident-reviews
+related: [gds-way]

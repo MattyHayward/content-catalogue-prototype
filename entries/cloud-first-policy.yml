@@ -1,0 +1,18 @@
+id: cloud-first-policy
+title: Cloud First policy
+short_description: Consider and fully evaluate public cloud first, before any other option
+long_description: >-
+  The government's Cloud First policy expects public sector organisations to
+  consider and fully evaluate potential public cloud solutions first, before
+  considering any other option. It explains when other approaches may be
+  justified, and how the policy relates to buying and hosting technology.
+type: policy
+tags: [cloud, hosting, procurement]
+professions: [architecture, engineering, it-operations]
+owner:
+  organisation: Government Digital Service
+applies_to: Public sector organisations choosing how to host and buy technology.
+source:
+  kind: link
+  url: https://www.gov.uk/guidance/government-cloud-first-policy
+related: [technology-code-of-practice, ncsc-cloud-security-principles]

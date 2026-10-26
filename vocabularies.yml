@@ -1,0 +1,64 @@
+# The values entries may use. A new value needs adding here first, so
+# filters on the site stay consistent.
+
+types:
+  standard:
+    label: Standard
+    description: Requirements that services, teams or organisations are expected to meet, and are often assessed against.
+    layout: requirements
+  principles:
+    label: Principles
+    description: A short set of principles to apply, without detailed requirements.
+    layout: requirements
+  policy:
+    label: Policy
+    description: A government position that organisations are expected to follow.
+    layout: policy
+  strategy:
+    label: Strategy
+    description: Direction and priorities for government, with the commitments that come from them.
+    layout: policy
+  guidance:
+    label: Guidance
+    description: Advice on how to do something well, to apply with judgement.
+    layout: guide
+  method:
+    label: Method
+    description: A way of working, followed as a sequence of steps.
+    layout: steps
+
+professions:
+  architecture:
+    label: Architecture
+  engineering:
+    label: Engineering
+  it-operations:
+    label: IT operations
+  data:
+    label: Data
+  cyber-security:
+    label: Cyber security
+  product-and-delivery:
+    label: Product and delivery
+  user-centred-design:
+    label: User-centred design
+
+tags:
+  accessibility: {label: Accessibility}
+  ai: {label: AI}
+  api: {label: APIs}
+  cloud: {label: Cloud}
+  data: {label: Data}
+  devops: {label: DevOps}
+  hosting: {label: Hosting}
+  incident-management: {label: Incident management}
+  monitoring: {label: Monitoring}
+  open-source: {label: Open source}
+  open-standards: {label: Open standards}
+  procurement: {label: Procurement}
+  security: {label: Security}
+  service-design: {label: Service design}
+  software-development: {label: Software development}
+  spend-controls: {label: Spend controls}
+  strategy: {label: Strategy}
+  sustainability: {label: Sustainability}

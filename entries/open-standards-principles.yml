@@ -1,0 +1,17 @@
+id: open-standards-principles
+title: Open Standards principles
+short_description: The principles government follows when choosing open standards for software and data
+long_description: >-
+  The Open Standards principles set out how government selects and specifies
+  open standards for software interoperability, data and document formats,
+  so that systems work together and organisations avoid being locked in to
+  one supplier.
+type: principles
+tags: [open-standards, procurement, data]
+professions: [architecture, engineering, data]
+owner:
+  organisation: Government Digital Service
+source:
+  kind: link
+  url: https://www.gov.uk/government/publications/open-standards-principles
+related: [technology-code-of-practice, api-technical-and-data-standards]

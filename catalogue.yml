@@ -1,0 +1,16 @@
+# The catalogue as a whole. Each entry is its own file in entries/.
+schema: guidance-catalogue/v0
+title: Technology in government
+short_description: Standards, policy and guidance for the government technology profession
+long_description: >-
+  Find the standards, policies, guidance and methods that people working in
+  architecture, engineering and IT operations across government work to,
+  wherever they are published, and who to ask about them.
+vocabularies: vocabularies.yml
+entries: entries/
+# Shown first on the front page, in this order. Everything else follows by title.
+featured:
+  - technology-code-of-practice
+  - service-standard
+  - gds-way
+  - cloud-first-policy

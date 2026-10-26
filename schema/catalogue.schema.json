@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tech.gov.uk/schema/guidance-catalogue/v0/catalogue.schema.json",
+  "title": "Guidance catalogue",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "title", "short_description", "long_description", "vocabularies", "entries"],
+  "properties": {
+    "schema": { "const": "guidance-catalogue/v0" },
+    "title": { "type": "string", "minLength": 1, "maxLength": 120 },
+    "short_description": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "long_description": { "type": "string", "minLength": 1, "maxLength": 1200 },
+    "vocabularies": { "type": "string", "pattern": "\\.ya?ml$" },
+    "entries": { "type": "string", "pattern": "/$" },
+    "featured": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }
+    }
+  }
+}

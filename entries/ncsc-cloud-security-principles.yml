@@ -1,0 +1,17 @@
+id: ncsc-cloud-security-principles
+title: Cloud security principles
+short_description: The 14 principles for evaluating the security of a cloud service
+long_description: >-
+  The NCSC's cloud security principles describe what to look for when
+  evaluating the security of a cloud service, from protecting data in transit
+  and at rest to separating customers, securing supply chains and monitoring
+  for attacks.
+type: principles
+tags: [cloud, security, hosting]
+professions: [cyber-security, architecture, it-operations]
+owner:
+  organisation: National Cyber Security Centre
+source:
+  kind: link
+  url: https://www.ncsc.gov.uk/collection/cloud/the-cloud-security-principles
+related: [cloud-first-policy, secure-by-design]

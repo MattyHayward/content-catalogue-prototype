@@ -1,0 +1,18 @@
+id: service-standard
+title: Service Standard
+short_description: The 14 points government services are expected to meet, and are assessed against
+long_description: >-
+  The Service Standard helps teams create and run great public services. Its
+  14 points cover understanding users and their problems, making the service
+  simple and accessible, working in a multidisciplinary agile team, choosing
+  the right tools and technology, and operating a reliable, secure service.
+type: standard
+tags: [service-design, accessibility, open-source, open-standards, security]
+professions: [product-and-delivery, user-centred-design, engineering, architecture, it-operations, data]
+owner:
+  organisation: Government Digital Service
+applies_to: Teams building and running government services, which are assessed against it.
+source:
+  kind: link
+  url: https://www.gov.uk/service-manual/service-standard
+related: [service-manual, technology-code-of-practice]

@@ -1,0 +1,19 @@
+id: technology-code-of-practice
+title: Technology Code of Practice
+short_description: The criteria government uses to design, build and buy technology
+long_description: >-
+  The Technology Code of Practice is a set of criteria to help government
+  design, build and buy technology. It covers user needs, accessibility, open
+  source and open standards, cloud, security, privacy, reuse, data, purchasing
+  and sustainability, and it is used to assess technology spending through
+  the spend controls process.
+type: standard
+tags: [cloud, open-source, open-standards, security, accessibility, procurement, sustainability, spend-controls]
+professions: [architecture, engineering, it-operations, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: Government organisations designing, building or buying technology, including spending assessed through spend controls.
+source:
+  kind: link
+  url: https://www.gov.uk/guidance/the-technology-code-of-practice
+related: [service-standard, cloud-first-policy, open-standards-principles]

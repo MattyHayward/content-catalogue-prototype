@@ -1,0 +1,18 @@
+id: secure-by-design
+title: Secure by Design
+short_description: Building security into government digital services from the start, and throughout their life
+long_description: >-
+  Secure by Design is government's approach to making security an integral
+  part of digital services: managing security risk from the start of
+  delivery and throughout the service's life, with clear ownership of risk
+  and principles teams apply at each stage.
+type: policy
+tags: [security]
+professions: [cyber-security, architecture, engineering, it-operations]
+owner:
+  organisation: Cabinet Office
+  team: Government Security Group
+source:
+  kind: link
+  url: https://www.security.gov.uk/guidance/secure-by-design/
+related: [ncsc-cloud-security-principles, technology-code-of-practice]

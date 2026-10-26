@@ -1,0 +1,8 @@
+# CODEOWNERS template.
+# Changes to what the site lists need a maintainer's review. Add the owning
+# team for an entry below so they review changes to it as well.
+
+# *                                   @gds-dtx/techx-maintainers
+# /vocabularies.yml                   @gds-dtx/techx-maintainers
+# /entries/incident-reviews.yml       @gds-dtx/techx-maintainers
+# /content/incident-reviews/          @gds-dtx/techx-maintainers

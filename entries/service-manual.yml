@@ -1,0 +1,17 @@
+id: service-manual
+title: Service Manual
+short_description: Guidance on researching, designing, building and running services that meet the Service Standard
+long_description: >-
+  The Service Manual explains how to research, design and build services that
+  meet the Service Standard: how agile delivery works in government, how to
+  run each phase, and the technology, design, user research and operational
+  practices that help a service succeed.
+type: guidance
+tags: [service-design, software-development, devops, accessibility]
+professions: [product-and-delivery, user-centred-design, engineering, it-operations]
+owner:
+  organisation: Government Digital Service
+source:
+  kind: link
+  url: https://www.gov.uk/service-manual
+related: [service-standard]
