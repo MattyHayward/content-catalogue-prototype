@@ -1,0 +1,19 @@
+id: community-development-handbook
+title: Community development handbook
+short_description: Advice for community managers and people involved in communities of practice in the public sector
+long_description: >-
+  It draws on the experience of community managers across government to cover
+  starting, running and sustaining communities of practice. It is maintained
+  by the Government Digital and Data profession team and updated as they learn
+  from working with professional communities.
+type: guidance
+scope: public-sector
+tags: [communities]
+professions: [architecture, engineering, it-operations, data, cyber-security, product-and-delivery, user-centred-design]
+owner:
+  organisation: Government Digital Service
+applies_to: Community managers and members of communities of practice in the public sector.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/community-development-handbook

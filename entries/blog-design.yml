@@ -1,0 +1,18 @@
+id: blog-design
+title: Design in government
+short_description: This blog is for people designing all aspects of public services, from local to central government, to share their projects, ideas and concepts, or just to think out loud
+long_description: >-
+  Posts share service design, interaction design, content design and user
+  research work from teams across government, along with events and community
+  news.
+type: blog
+scope: government
+tags: [service-design, accessibility, communities, design]
+professions: [user-centred-design]
+owner:
+  organisation: Government Digital Service
+applies_to: Designers and researchers working on public services, from local to central government.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://designnotes.blog.gov.uk/

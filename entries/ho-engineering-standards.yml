@@ -1,0 +1,19 @@
+id: ho-engineering-standards
+title: "Engineering Standards: Home Office"
+short_description: Engineering standards for the Home Office
+long_description: >-
+  They set out the principles, standards and patterns Home Office engineers
+  are expected to follow, covering areas such as source control, testing,
+  security, observability and continuous delivery. They are published openly
+  so teams elsewhere can learn from them.
+type: standard
+scope: organisation
+tags: [software-development, devops, security, monitoring]
+professions: [engineering, it-operations]
+owner:
+  organisation: Home Office
+applies_to: Engineers building and running Home Office services. Others can use them as an example.
+source:
+  type: external
+  name: Home Office
+  path: https://engineering.homeoffice.gov.uk/

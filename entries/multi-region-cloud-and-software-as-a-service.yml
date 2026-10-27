@@ -1,0 +1,19 @@
+id: multi-region-cloud-and-software-as-a-service
+title: Multi-region cloud and software-as-a-service
+short_description: In order to provide resilience, capacity and access to innovation, organisations may need to use cloud and software-as-a-service solutions located outside the UK
+long_description: >-
+  It sets out a multi-region approach, where organisations make controlled,
+  considered use of non-UK regions while staying compliant with UK law. It
+  confirms that OFFICIAL data can be held overseas where legal protections and
+  security controls are adequate.
+type: guidance
+scope: public-sector
+tags: [cloud, hosting, security, data]
+professions: [architecture, it-operations, cyber-security, data]
+owner:
+  organisation: Government Digital Service
+applies_to: Public sector organisations considering cloud or software-as-a-service hosted outside the UK.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/multi-region-cloud-and-software-as-a-service

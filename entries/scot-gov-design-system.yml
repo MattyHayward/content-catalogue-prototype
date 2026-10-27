@@ -1,0 +1,18 @@
+id: scot-gov-design-system
+title: Scottish Government Design System
+short_description: Provides static web assets for websites and web applications for the Scottish Government and other Scottish public sector bodies
+long_description: >-
+  It provides the styles, components and patterns, with design and
+  accessibility guidance, that Scottish public sector organisations use to
+  make consistent websites and services.
+type: resource
+scope: devolved
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: Scottish Government
+applies_to: The Scottish Government and other Scottish public sector bodies.
+source:
+  type: external
+  name: Scottish Government
+  path: https://designsystem.gov.scot/

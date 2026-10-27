@@ -1,0 +1,20 @@
+id: gov-uk-forms
+title: GOV.UK Forms
+short_description: Create online forms for GOV.UK
+long_description: >-
+  Form creators can build accessible online forms without technical skills,
+  publish them on GOV.UK and receive completed submissions by email. It is an
+  alternative to PDF and document forms, which are hard for users to complete
+  and for teams to process.
+type: product
+primary: true
+scope: government
+tags: [service-design, accessibility]
+professions: [user-centred-design, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: Central government organisations that need to publish forms on GOV.UK.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://www.forms.service.gov.uk/

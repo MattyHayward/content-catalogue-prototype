@@ -1,0 +1,18 @@
+id: dfe-design-system
+title: DfE Deliver Good Services
+short_description: Everything you need to deliver consistent digital, data and technology services for DfE
+long_description: >-
+  It brings together DfE's service standard, design and research guidance, and
+  ways of working for digital, data and technology teams across the
+  department.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [product-and-delivery, user-centred-design, engineering]
+owner:
+  organisation: Department for Education
+applies_to: Digital, data and technology teams and suppliers working on DfE services.
+source:
+  type: external
+  name: Department for Education
+  path: https://deliver-good-services.education.gov.uk/

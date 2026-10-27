@@ -1,0 +1,17 @@
+id: hmlr-design-system
+title: HM Land Registry Design System
+short_description: Work to government service design standards, and use our styles, components, patterns and guidance for HM Land Registry specific user needs.
+long_description: >-
+  It extends the GOV.UK Design System with styles, components and patterns for
+  the needs of HM Land Registry's users and staff.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: HM Land Registry
+applies_to: Teams building HM Land Registry services.
+source:
+  type: external
+  name: HM Land Registry
+  path: https://hmlr-design-system.herokuapp.com/

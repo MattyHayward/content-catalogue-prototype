@@ -1,0 +1,23 @@
+id: legacy-it-risk-assessment-framework
+title: Legacy IT Risk Assessment Framework
+short_description: A risk-based way to assess how critical the risks from legacy IT systems are, and which need urgent remediation
+long_description: >-
+  Assessors score each system against 7 likelihood factors, such as
+  end-of-life status, supplier contracts, skills and security vulnerabilities,
+  and 6 impact factors, from national security and finances to operations and
+  innovation. Systems scoring 16 or more are red-rated and need urgent
+  remediation. Departments report their results, with remediation plans, to
+  the Legacy IT Asset Register each year, giving a government-wide view of
+  legacy risk.
+type: method
+scope: public-sector
+tags: [legacy, security, strategy]
+professions: [architecture, it-operations, cyber-security]
+owner:
+  organisation: Government Digital Service
+applies_to: Government departments and other public sector organisations.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/guidance-on-the-legacy-it-risk-assessment-framework/guidance-on-the-legacy-it-risk-assessment-framework
+related: [legacy-definition, managing-legacy-technology, prevent-technical-debt-and-legacy]

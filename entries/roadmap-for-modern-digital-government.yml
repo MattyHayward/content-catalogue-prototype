@@ -1,16 +1,19 @@
 id: roadmap-for-modern-digital-government
 title: A roadmap for modern digital government
-short_description: Government's priorities for modernising public services and the technology behind them
+short_description: Our plan to build a modern digital government that works for you – making life easier, driving growth and delivering smarter, more efficient public services
 long_description: >-
-  The roadmap sets out how government will modernise digital public services
-  and the systems, data and skills behind them, with the commitments
-  departments and the centre of government will deliver against.
+  It sets out how government will modernise digital public services and the
+  systems, data and skills behind them, with the commitments departments and
+  the centre of government will deliver against.
 type: strategy
+scope: public-sector
 tags: [strategy, ai, data, cloud]
 professions: [architecture, engineering, it-operations, data, product-and-delivery]
 owner:
-  organisation: Department for Science, Innovation and Technology
+  organisation: Government Digital Service
+applies_to: Government organisations delivering its commitments, and anyone interested in how public services will change.
 source:
-  kind: link
-  url: https://roadmap-for-modern-digital-government.campaign.gov.uk/
-related: [functional-standard-digital]
+  type: external
+  name: Government Digital Service
+  path: https://roadmap-for-modern-digital-government.campaign.gov.uk/
+related: [govs-005]

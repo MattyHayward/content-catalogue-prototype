@@ -1,0 +1,21 @@
+id: blueprint-for-modern-digital-government
+title: A blueprint for modern digital government
+short_description: A long-term vision and six-point plan for digital public services across UK government, published January 2025
+long_description: >-
+  It is built around six priorities: joining up public sector services,
+  harnessing AI for the public good, strengthening and extending digital and
+  data infrastructure, elevating leadership and growing talent, funding for
+  outcomes and procuring for growth, and committing to transparency. It is the
+  starting point for the roadmap for modern digital government.
+type: strategy
+primary: true
+scope: public-sector
+tags: [strategy, ai, data, procurement]
+professions: [architecture, engineering, data, product-and-delivery, it-operations]
+owner:
+  organisation: Government Digital Service
+applies_to: Leaders and teams across the public sector planning digital, data and technology work.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/a-blueprint-for-modern-digital-government

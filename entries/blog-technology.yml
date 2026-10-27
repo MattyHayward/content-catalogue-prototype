@@ -1,0 +1,18 @@
+id: blog-technology
+title: Technology in government
+short_description: Documenting how we're building, assembling and running digital and technology projects across the UK government
+long_description: >-
+  Technologists from across government write about topics such as cloud, cyber
+  security, open source, APIs, data, AI and technology leadership.
+type: blog
+primary: true
+scope: government
+tags: [cloud, security, open-source, api, ai, software-development]
+professions: [engineering, architecture, it-operations, cyber-security, data]
+owner:
+  organisation: Government Digital Service
+applies_to: Technologists across government, and anyone interested in how government uses technology.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://technology.blog.gov.uk/

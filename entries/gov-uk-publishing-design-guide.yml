@@ -1,0 +1,19 @@
+id: gov-uk-publishing-design-guide
+title: GOV.UK Publishing Design Guide
+short_description: The GOV.UK Publishing Design Guide is an extension of the GOV.UK Design System, aimed at people working in the GOV.UK programme at the Government Digital Service.
+long_description: >-
+  It documents the components, patterns and principles used across GOV.UK's
+  public pages and publishing applications, so the people building them keep
+  them consistent. It is mainly for teams in the GOV.UK programme rather than
+  service teams elsewhere in government.
+type: resource
+scope: government
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: Government Digital Service
+applies_to: Teams in the GOV.UK programme working on GOV.UK's public pages and publishing applications.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://design-guide.publishing.service.gov.uk/

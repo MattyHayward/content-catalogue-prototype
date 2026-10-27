@@ -1,0 +1,19 @@
+id: internal-access
+title: Internal Access
+short_description: Internal Access is a single sign on (SSO) service that allows you to access applications and sites across government.
+long_description: >-
+  It lets civil servants sign in once with their organisation's account to
+  reach the internal government tools that use it, rather than managing
+  separate credentials for each. Teams running internal sites can use it to
+  control who has access.
+type: product
+scope: government
+tags: [security, identity]
+professions: [cyber-security, engineering, it-operations]
+owner:
+  organisation: Government Digital Service
+applies_to: Civil servants signing in to internal government tools, and the teams running those tools.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://sso.service.security.gov.uk/

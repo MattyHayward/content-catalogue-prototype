@@ -1,0 +1,17 @@
+id: tfwm-design-system
+title: Transport for West Midlands Design System
+short_description: Design and build digital services for transport in the West Midlands
+long_description: >-
+  It sets out the components, patterns and styles TfWM teams and suppliers
+  use, so services stay consistent and accessible.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: Transport for West Midlands
+applies_to: Teams and suppliers building Transport for West Midlands digital services.
+source:
+  type: external
+  name: Transport for West Midlands
+  path: https://designsystem.tfwm.org.uk/

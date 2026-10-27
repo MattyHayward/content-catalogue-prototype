@@ -1,0 +1,19 @@
+id: welsh-gov-digital-service-standard
+title: Welsh Government Digital Service Standard
+short_description: Principles and criteria for designing and delivering digital public services in Wales
+long_description: >-
+  Similar in intent to the GOV.UK Service Standard, it covers focusing on
+  users, providing services in Welsh and English, accessibility, working in
+  multidisciplinary teams, iterating and improving, and choosing the right
+  technology. It is for public bodies delivering services in Wales.
+type: standard
+scope: devolved
+tags: [service-design, accessibility]
+professions: [product-and-delivery, user-centred-design, engineering]
+owner:
+  organisation: Welsh Government
+applies_to: Public bodies in Wales designing and delivering digital services.
+source:
+  type: external
+  name: Welsh Government
+  path: https://digitalpublicservices.gov.wales/guidance-and-standards/digital-service-standard-wales

@@ -1,0 +1,17 @@
+id: hmrc-patterns
+title: HMRC design resources
+short_description: Use these design resources to make your service and guidance consistent with HMRC and GOV.UK
+long_description: >-
+  Learn from the experience of other teams to avoid repeating work and share
+  your knowledge by suggesting new content.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: HM Revenue & Customs
+applies_to: Teams designing HMRC services and guidance.
+source:
+  type: external
+  name: HM Revenue & Customs
+  path: https://design.tax.service.gov.uk/

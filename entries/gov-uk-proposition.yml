@@ -1,0 +1,19 @@
+id: gov-uk-proposition
+title: GOV.UK proposition
+short_description: Describes what must go on GOV.UK and what must not.
+long_description: >-
+  It defines the scope of GOV.UK: the content and services that belong on it,
+  what should be published elsewhere, and why keeping GOV.UK focused helps
+  users find what they need from government. Departments use it to decide
+  whether new content or a new site should go on GOV.UK.
+type: standard
+scope: public-sector
+tags: [service-design]
+professions: [user-centred-design, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: Government organisations deciding whether content or a service belongs on GOV.UK.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/govuk-proposition/govuk-proposition

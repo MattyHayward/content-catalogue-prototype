@@ -1,0 +1,19 @@
+id: gdad-hub
+title: Government Digital and Data Hub
+short_description: Designed for everyone working in digital and data roles across the UK public sector
+long_description: >-
+  Whether you’re in central government, local authorities, the NHS, police,
+  fire services, or any other public body – this is a shared space built for
+  you.
+type: resource
+primary: true
+scope: government
+tags: [careers, communities]
+professions: [architecture, engineering, it-operations, data, cyber-security, product-and-delivery, user-centred-design]
+owner:
+  organisation: Government Digital Service
+applies_to: Everyone in digital and data roles across the UK public sector.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://governmentdigitalanddatahub.campaign.gov.uk/

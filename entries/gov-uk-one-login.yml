@@ -1,0 +1,19 @@
+id: gov-uk-one-login
+title: GOV.UK One Login
+short_description: Let users sign-in and prove their identities to use your service
+long_description: >-
+  It gives users a single account to sign in to government services and prove
+  their identity once, rather than repeating checks for each service. Service
+  teams integrate with it using OpenID Connect.
+type: product
+primary: true
+scope: government
+tags: [security, service-design, open-standards, identity]
+professions: [engineering, architecture, product-and-delivery, cyber-security]
+owner:
+  organisation: Government Digital Service
+applies_to: Central government services that need users to sign in or prove their identity.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://www.sign-in.service.gov.uk/

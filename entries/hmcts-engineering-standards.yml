@@ -1,0 +1,18 @@
+id: hmcts-engineering-standards
+title: "Engineering Standards: HMCTS"
+short_description: Engineering standards for HM Courts and Tribunals
+long_description: >-
+  The HMCTS GitHub site gathers engineering guidance and documentation,
+  including how teams build, deploy and run services on HMCTS platforms. It is
+  a starting point for engineers joining or working with HMCTS.
+type: standard
+scope: organisation
+tags: [software-development, devops, hosting, open-source]
+professions: [engineering, it-operations]
+owner:
+  organisation: HM Courts & Tribunals Service
+applies_to: Engineers building and running HMCTS services, and suppliers working with them.
+source:
+  type: external
+  name: HM Courts & Tribunals Service
+  path: https://hmcts.github.io/

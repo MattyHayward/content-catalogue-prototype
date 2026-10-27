@@ -1,0 +1,18 @@
+id: bristol-design-system
+title: Bristol Design System
+short_description: Design system and guidance for creating consistent Bristol City Council services
+long_description: >-
+  It provides components, patterns and guidance based on the GOV.UK Design
+  System, adapted for Bristol City Council's brand and the people who use its
+  services.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: Bristol City Council
+applies_to: Teams and suppliers building Bristol City Council's digital services.
+source:
+  type: external
+  name: Bristol City Council
+  path: https://design.bristol.gov.uk/

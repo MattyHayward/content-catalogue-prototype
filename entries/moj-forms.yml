@@ -1,0 +1,18 @@
+id: moj-forms
+title: MoJ Forms
+short_description: Create online forms within the Ministry of Justice
+long_description: >-
+  It lets MoJ teams build, test and publish online forms without code, using
+  GOV.UK and MoJ design patterns, and receive submissions securely. It is
+  available to teams across the Ministry of Justice and its agencies.
+type: product
+scope: organisation
+tags: [service-design, accessibility]
+professions: [user-centred-design, product-and-delivery]
+owner:
+  organisation: Ministry of Justice
+applies_to: Teams in the Ministry of Justice and its agencies.
+source:
+  type: external
+  name: Ministry of Justice
+  path: https://moj-forms.service.justice.gov.uk/

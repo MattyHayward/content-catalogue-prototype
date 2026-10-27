@@ -1,0 +1,18 @@
+id: ons-design-system
+title: ONS Service Manual
+short_description: Use our foundations, components and patterns to design and build accessible services and statistical products
+long_description: >-
+  It covers the foundations, components and patterns used across ONS websites,
+  surveys and statistical outputs, along with guidance on accessibility and
+  content.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, data, design]
+professions: [user-centred-design, engineering, data]
+owner:
+  organisation: Office for National Statistics
+applies_to: Teams designing and building ONS services and statistical products.
+source:
+  type: external
+  name: Office for National Statistics
+  path: https://service-manual.ons.gov.uk/

@@ -1,0 +1,20 @@
+id: gov-design-principles
+title: Government Design Principles
+short_description: The UK government's design principles and examples of how they've been used.
+long_description: >-
+  The 10 principles include starting with user needs, doing less, designing
+  with data, doing the hard work to make it simple, iterating, making things
+  open and being consistent rather than uniform. Each principle comes with
+  examples of how teams have applied it.
+type: principles
+primary: true
+scope: government
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, product-and-delivery, engineering]
+owner:
+  organisation: Government Digital Service
+applies_to: Anyone designing government services, content or products.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/guidance/government-design-principles

@@ -1,0 +1,21 @@
+id: managing-legacy-technology
+title: Managing legacy technology
+short_description: This describes how the government should manage legacy technology
+long_description: >-
+  It covers how to identify and assess legacy systems, the risks they carry,
+  and options for dealing with them such as replacing, migrating or retiring
+  them. It also helps organisations prioritise which legacy to tackle first
+  and make the case for funding.
+type: guidance
+primary: true
+scope: public-sector
+tags: [strategy, legacy]
+professions: [architecture, it-operations, engineering]
+owner:
+  organisation: Government Digital Service
+applies_to: Government organisations running legacy technology, or planning to replace it.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/guidance/managing-legacy-technology
+related: [legacy-it-risk-assessment-framework]

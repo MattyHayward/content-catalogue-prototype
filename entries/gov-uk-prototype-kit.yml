@@ -1,0 +1,18 @@
+id: gov-uk-prototype-kit
+title: GOV.UK Prototype Kit
+short_description: Quickly make interactive, accessible and realistic prototypes of GOV.UK services
+long_description: >-
+  It uses GOV.UK Design System components, so prototypes look and behave like
+  real services and can be tested with users before any production code is
+  written. You don't need to be an experienced developer to use it.
+type: product
+scope: public-sector
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: Designers and teams prototyping government services and testing them with users.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://prototype-kit.service.gov.uk/

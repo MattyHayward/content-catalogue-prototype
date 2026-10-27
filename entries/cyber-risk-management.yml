@@ -1,0 +1,19 @@
+id: cyber-risk-management
+title: Cyber risk management
+short_description: Understand and manage cyber security risks for your organisation
+long_description: >-
+  This NCSC guidance explains the fundamentals of cyber risk management,
+  compares common approaches and methods, and helps organisations choose ones
+  that suit their context. It is useful to risk owners and decision makers as
+  well as security practitioners.
+type: guidance
+scope: public-sector
+tags: [security]
+professions: [cyber-security, architecture, it-operations]
+owner:
+  organisation: National Cyber Security Centre
+applies_to: Risk owners, security practitioners and technical teams in any organisation.
+source:
+  type: external
+  name: National Cyber Security Centre
+  path: https://www.ncsc.gov.uk/collection/risk-management

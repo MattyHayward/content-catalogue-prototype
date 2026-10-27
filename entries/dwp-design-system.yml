@@ -1,0 +1,17 @@
+id: dwp-design-system
+title: DWP Design System
+short_description: Includes standard design elements and best practice for DWP digital services
+long_description: >-
+  It extends the GOV.UK Design System with components and patterns designed
+  for DWP's users, including the staff who use its internal services.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: Department for Work and Pensions
+applies_to: Teams and suppliers building DWP digital services.
+source:
+  type: external
+  name: Department for Work and Pensions
+  path: https://design-system.dwp.gov.uk/

@@ -1,0 +1,20 @@
+id: ai-playbook
+title: AI Playbook for the UK Government
+short_description: The playbook offers guidance on using AI safely, effectively and securely for civil servants and people working in government organisations
+long_description: >-
+  Built around 10 principles, it covers what AI can and cannot do, using it
+  lawfully, ethically and securely, keeping meaningful human control, and how
+  to buy and build AI solutions. It replaced the Generative AI Framework for
+  HMG and applies to AI technologies generally.
+type: guidance
+primary: true
+scope: government
+tags: [ai, security, data, procurement]
+professions: [data, engineering, architecture, product-and-delivery, cyber-security]
+owner:
+  organisation: Government Digital Service
+applies_to: Civil servants and people working in government organisations who use, build or buy AI.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government

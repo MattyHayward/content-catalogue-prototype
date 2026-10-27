@@ -1,0 +1,20 @@
+id: enterprise-architecture-resources
+title: OCTO enterprise architecture resources
+short_description: Enterprise architecture guidance for government digital services
+long_description: >-
+  It includes reference architectures for citizen-facing services and local
+  government, a digital technology capability model, self-assessment tools for
+  software architecture maturity, and guidance on implementing AI. It aims to
+  reduce duplication and help organisations make interoperable, well-informed
+  technology investments.
+type: resource
+scope: government
+tags: [strategy, ai]
+professions: [architecture]
+owner:
+  organisation: Government Digital Service
+applies_to: Architects and technology leaders in government organisations.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://architecture.cddo.cabinetoffice.gov.uk/

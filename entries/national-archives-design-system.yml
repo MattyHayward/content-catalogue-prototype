@@ -1,0 +1,18 @@
+id: national-archives-design-system
+title: The National Archives Design System
+short_description: Use this design system to make services that are consistent with The National Archives
+long_description: >-
+  It provides the components, styles and guidance for building The National
+  Archives' websites and services, consistent with its brand and accessible to
+  all users.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: The National Archives
+applies_to: Teams building The National Archives' websites and services.
+source:
+  type: external
+  name: The National Archives
+  path: https://design-system.nationalarchives.gov.uk/

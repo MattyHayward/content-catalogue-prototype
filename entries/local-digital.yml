@@ -1,0 +1,19 @@
+id: local-digital
+title: Local Digital
+short_description: This a team within the UK Ministry of Housing, Communities and Local Government (MHCLG) that provides digital and cyber support to local government
+long_description: >-
+  Its learning resources cover topics such as cyber security, service design,
+  agile working and digital leadership for councils, alongside the Local
+  Digital Declaration and funding programmes. It is for people working in
+  local government.
+type: resource
+scope: public-sector
+tags: [security, service-design]
+professions: [product-and-delivery, user-centred-design, cyber-security]
+owner:
+  organisation: Ministry of Housing, Communities and Local Government
+applies_to: Councils and people working in local government.
+source:
+  type: external
+  name: Local Digital (MHCLG)
+  path: https://www.localdigital.gov.uk/learning-resources/

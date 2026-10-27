@@ -1,0 +1,20 @@
+id: gov-uk-pay
+title: GOV.UK Pay
+short_description: The best way to take payments for public services
+long_description: >-
+  Services can take card, Apple Pay and Google Pay payments, issue refunds and
+  reconcile transactions, either through the API or by creating payment links
+  without writing code. GOV.UK Pay handles PCI compliance, so services don't
+  have to.
+type: product
+primary: true
+scope: government
+tags: [api, service-design, security]
+professions: [engineering, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: Central government, local councils, the NHS and police services that take payments from the public.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://www.payments.service.gov.uk/

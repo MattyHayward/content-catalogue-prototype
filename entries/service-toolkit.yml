@@ -1,0 +1,18 @@
+id: service-toolkit
+title: Service Toolkit
+short_description: All you need to design, build and run services that meet government standards
+long_description: >-
+  It links to the standards, guidance, components and platforms teams use
+  throughout delivery, from the Service Standard and Service Manual to the
+  GOV.UK Design System, GOV.UK Notify, GOV.UK Pay and other common components.
+type: resource
+scope: public-sector
+tags: [service-design, accessibility, design]
+professions: [product-and-delivery, user-centred-design, engineering]
+owner:
+  organisation: Government Digital Service
+applies_to: Service teams across government, at any stage of delivery.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/service-toolkit

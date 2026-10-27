@@ -1,0 +1,17 @@
+id: moj-design-system
+title: MOJ Design System
+short_description: The MOJ Design System enables teams to avoid repetition by learning from the work and experiences of others
+long_description: >-
+  It extends the GOV.UK Design System with components and patterns for MOJ
+  services, many designed for the staff tools used in case management.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: Ministry of Justice
+applies_to: Teams designing and building Ministry of Justice services.
+source:
+  type: external
+  name: Ministry of Justice
+  path: https://design-patterns.service.justice.gov.uk/

@@ -1,0 +1,18 @@
+id: govspeak-converter
+title: Govspeak Converter
+short_description: Convert content into Govspeak and preview how it will render on GOV.UK
+long_description: >-
+  Govspeak is the markdown variant GOV.UK uses for content. The tool converts
+  content into Govspeak and previews how it will look, which helps publishers
+  prepare content before it goes into the publishing applications.
+type: resource
+scope: government
+tags: [design]
+professions: [user-centred-design]
+owner:
+  organisation: Government Digital Service
+applies_to: Publishers preparing content for GOV.UK.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://govspeak-preview.publishing.service.gov.uk/

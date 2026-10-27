@@ -1,0 +1,20 @@
+id: govassure
+title: GovAssure
+short_description: GovAssure is the cyber security scheme for assessing government critical systems
+long_description: >-
+  Organisations assess their critical systems against the NCSC Cyber
+  Assessment Framework, using profiles set by the centre of government, and
+  have their self-assessments independently reviewed. The results give
+  departments and the centre a consistent view of cyber resilience across
+  government.
+type: policy
+scope: government
+tags: [security]
+professions: [cyber-security, it-operations, architecture]
+owner:
+  organisation: Government Cyber Unit
+applies_to: Government departments and their arm's-length bodies, for the systems identified as critical.
+source:
+  type: external
+  name: Government Security
+  path: https://www.security.gov.uk/policy-and-guidance/govassure/

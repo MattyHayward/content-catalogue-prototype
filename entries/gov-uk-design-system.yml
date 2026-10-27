@@ -1,0 +1,18 @@
+id: gov-uk-design-system
+title: GOV.UK Design System
+short_description: Use this design system to make government services consistent with GOV.UK.
+long_description: >-
+  Learn from the research and experience of other service teams and avoid
+  repeating work that’s already been done.
+type: product
+primary: true
+scope: government
+tags: [service-design, accessibility, open-source, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: Government Digital Service
+applies_to: Teams designing and building services that are on GOV.UK, or should look like they are.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://design-system.service.gov.uk/

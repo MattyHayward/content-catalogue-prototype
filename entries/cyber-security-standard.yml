@@ -1,0 +1,21 @@
+id: cyber-security-standard
+title: The Cyber Security Standard
+short_description: Sets out activities needed to protect government assets
+long_description: >-
+  It sets the baseline cyber security activity expected of government
+  organisations, covering how cyber risk is governed and managed, how systems
+  and data are protected, and how incidents are detected and responded to. It
+  links to the NCSC Cyber Assessment Framework, and to GovAssure for assuring
+  critical systems.
+type: standard
+primary: true
+scope: public-sector
+tags: [security, incident-management]
+professions: [cyber-security, architecture, it-operations, engineering]
+owner:
+  organisation: Government Cyber Unit
+applies_to: Government departments and their arm's-length bodies, which are expected to meet it.
+source:
+  type: external
+  name: Government Security
+  path: https://www.security.gov.uk/policy-and-guidance/the-cyber-security-standard/

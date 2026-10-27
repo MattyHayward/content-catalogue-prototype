@@ -1,0 +1,18 @@
+id: ho-design-system
+title: Home Office Design System
+short_description: Design and build internal Home Office, as well as public-facing, services that are fit for everyone.
+long_description: >-
+  It extends the GOV.UK Design System with components, patterns and guidance
+  for Home Office services, including the internal tools staff use for
+  casework.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: Home Office
+applies_to: Teams designing and building Home Office services, both public-facing and internal.
+source:
+  type: external
+  name: Home Office
+  path: https://design.homeoffice.gov.uk/

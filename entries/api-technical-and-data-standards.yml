@@ -1,17 +1,19 @@
 id: api-technical-and-data-standards
 title: API technical and data standards
-short_description: How to design, build and document APIs in government
+short_description: Design, build and operate APIs in a consistent way
 long_description: >-
-  The API technical and data standards help government teams build APIs that
-  are consistent, secure and easy to use: using RESTful approaches and open
-  standards, securing and versioning APIs, documenting them, and making them
-  discoverable.
+  They help teams build APIs that are consistent, secure and easy to use:
+  following RESTful approaches and open standards, securing and versioning
+  APIs, documenting them, and making them discoverable.
 type: standard
+scope: public-sector
 tags: [api, open-standards, data, security]
 professions: [engineering, architecture, data]
 owner:
   organisation: Government Digital Service
+applies_to: Government teams designing, building and running APIs.
 source:
-  kind: link
-  url: https://www.gov.uk/guidance/gds-api-technical-and-data-standards
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/guidance/gds-api-technical-and-data-standards
 related: [open-standards-principles, technology-code-of-practice]

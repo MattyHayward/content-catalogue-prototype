@@ -1,0 +1,18 @@
+id: prevent-technical-debt-and-legacy
+title: Prevent technical debt and legacy
+short_description: You must have a legacy-proofing plan for all digital products and services to prevent the build up of technical debt and future legacy
+long_description: >-
+  It explains how to plan for the whole life of a product, including clear
+  ownership, funding for ongoing maintenance and keeping technology up to
+  date, so products don't drift into becoming legacy.
+type: guidance
+scope: public-sector
+tags: [software-development, devops, strategy, legacy]
+professions: [engineering, architecture, product-and-delivery, it-operations]
+owner:
+  organisation: Government Digital Service
+applies_to: Teams building and running government digital products and services, which need a legacy-proofing plan.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/guidance/prevent-technical-debt-and-legacy

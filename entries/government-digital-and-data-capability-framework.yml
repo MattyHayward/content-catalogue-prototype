@@ -1,0 +1,20 @@
+id: government-digital-and-data-capability-framework
+title: Government Digital and Data Profession Capability Framework
+short_description: Framework defining digital, data and technology roles in government and the skills required at each level
+long_description: >-
+  It describes each role in the Government Digital and Data profession, the
+  skills it needs and how expectations change from trainee to head of role.
+  Use it to write job descriptions, plan career progression and identify
+  learning needs.
+type: standard
+primary: true
+scope: public-sector
+tags: [careers]
+professions: [architecture, engineering, it-operations, data, cyber-security, product-and-delivery, user-centred-design]
+owner:
+  organisation: Government Digital Service
+applies_to: People in digital and data roles across government, and those recruiting or managing them.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://understand-digital-data-roles-skills.service.gov.uk/

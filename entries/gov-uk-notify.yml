@@ -1,0 +1,20 @@
+id: gov-uk-notify
+title: GOV.UK Notify
+short_description: Send emails, text messages and letters to your users
+long_description: >-
+  Teams can send messages from templates through the web interface or by
+  integrating with the API, and track whether they were delivered. Emails are
+  free, each service gets a free allowance of text messages, and letters are
+  charged at cost.
+type: product
+primary: true
+scope: government
+tags: [api, service-design]
+professions: [engineering, product-and-delivery, user-centred-design]
+owner:
+  organisation: Government Digital Service
+applies_to: Teams in central government, local government and the NHS that send messages to their users.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://www.notifications.service.gov.uk/

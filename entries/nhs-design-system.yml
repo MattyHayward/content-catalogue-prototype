@@ -1,0 +1,16 @@
+id: nhs-design-system
+title: NHS Design Service Manual
+short_description: Build consistent, accessible NHS services for the public and staff
+long_description: >-
+  Learn from the research and experience of other NHS digital teams.
+type: resource
+scope: organisation
+tags: [service-design, accessibility, design]
+professions: [user-centred-design, engineering]
+owner:
+  organisation: NHS England
+applies_to: Teams designing and building NHS services for the public and staff.
+source:
+  type: external
+  name: NHS
+  path: https://service-manual.nhs.uk/design-system

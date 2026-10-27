@@ -1,0 +1,19 @@
+id: blog-gdad
+title: Government Digital and Data Blog
+short_description: Government Digital and Data is the community of experts leading digital transformation
+long_description: >-
+  Posts cover digital and data strategy, standards, the profession and
+  cross-government initiatives. The blog was previously the CDDO blog, which
+  is why its address still uses that name.
+type: blog
+primary: true
+scope: government
+tags: [strategy, data, careers]
+professions: [architecture, data, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: People in the Government Digital and Data profession, and anyone interested in digital and data across government.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://cddo.blog.gov.uk/

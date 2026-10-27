@@ -1,9 +1,10 @@
 """Check the catalogue before a change merges.
 
 The JSON Schemas check each file's shape. This also checks what a schema
-cannot: that each entry's id matches its file name, that types, tags and
-professions come from vocabularies.yml, that every id the catalogue refers to
-exists, and that each content directory has a guidance.yml.
+cannot: that each entry's id matches its file name, that its type, scope,
+tags and professions come from vocabularies.yml, that every id
+the catalogue refers to exists, and that each hosted source's directory has a
+guidance.yml.
 
 Exits 1 and lists every problem it finds.
 """
@@ -16,8 +17,8 @@ import yaml
 from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parent.parent
-VOCABULARY_NAMES = ("types", "professions", "tags")
-LAYOUTS = ("requirements", "policy", "guide", "steps")
+VOCABULARY_NAMES = ("types", "scope", "professions", "tags")
+LAYOUTS = ("requirements", "policy", "guide", "steps", "tool", "media")
 
 
 def load_yaml(path: Path, errors: list[str]):
@@ -43,7 +44,7 @@ def schema_errors(check: Draft202012Validator, data, name: str) -> list[str]:
 
 def check_vocabularies(vocabularies, errors: list[str]) -> dict[str, set[str]]:
     if not isinstance(vocabularies, dict):
-        errors.append("vocabularies: expected a mapping of types, professions and tags")
+        errors.append("vocabularies: expected a mapping of types, scope, professions and tags")
         return {name: set() for name in VOCABULARY_NAMES}
     known = {}
     for name in VOCABULARY_NAMES:
@@ -101,6 +102,8 @@ def main() -> int:
     for entry_id, (name, entry) in entries.items():
         if entry["type"] not in known["types"]:
             errors.append(f"{name}: type '{entry['type']}' is not in vocabularies.yml")
+        if entry["scope"] not in known["scope"]:
+            errors.append(f"{name}: scope '{entry['scope']}' is not in vocabularies.yml")
         for field in ("tags", "professions"):
             for value in entry[field]:
                 if value not in known[field]:
@@ -111,7 +114,7 @@ def main() -> int:
             elif related not in entry_ids:
                 errors.append(f"{name}: related entry '{related}' does not exist")
         source = entry["source"]
-        if source["kind"] == "path" and not (ROOT / source["path"] / "guidance.yml").is_file():
+        if source["type"] == "hosted" and not (ROOT / source["path"] / "guidance.yml").is_file():
             errors.append(f"{name}: {source['path']}/guidance.yml does not exist")
 
     for featured in catalogue.get("featured", []):

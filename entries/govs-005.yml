@@ -1,0 +1,19 @@
+id: govs-005
+title: "Government Functional Standard 005: Digital"
+short_description: This standard sets out what government organisations shall do to govern, deliver and assure digital and data activity
+long_description: >-
+  It helps organisations improve public services, work more efficiently and
+  manage risk.
+type: standard
+primary: true
+scope: public-sector
+tags: [strategy, data, security, spend-controls]
+professions: [architecture, it-operations, data, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: Government departments and their arm's-length bodies.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital/government-functional-standard-govs-005-digital-html
+related: [technology-code-of-practice, roadmap-for-modern-digital-government]

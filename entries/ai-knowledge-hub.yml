@@ -1,0 +1,19 @@
+id: ai-knowledge-hub
+title: AI Knowledge Hub
+short_description: Explore AI in Government
+long_description: >-
+  Run by the Incubator for AI (i.AI), it brings together examples of AI used
+  across government alongside guidance, tools and resources for teams
+  exploring or adopting AI. Use it to see what other teams have built before
+  starting something similar.
+type: resource
+scope: government
+tags: [ai]
+professions: [data, engineering, architecture, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: Public sector teams exploring, building or buying AI.
+source:
+  type: external
+  name: Incubation for AI
+  path: https://ai.gov.uk/knowledge-hub/

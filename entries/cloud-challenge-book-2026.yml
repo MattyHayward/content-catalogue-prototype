@@ -1,0 +1,21 @@
+id: cloud-challenge-book-2026
+title: Cloud Challenge Book 2026
+short_description: The first Cloud Challenge Book from GDS sets out challenges across the UK cloud infrastructure, and invites industry partners to innovate at a national scale
+long_description: >-
+  Produced with the Government Commercial Agency, the NCSC and the Government
+  Cyber Unit, it describes 5 challenges: legacy modernisation, digital
+  infrastructure for an AI era, secure and resilient cloud, skills, and
+  delivering commercial value at national scale. It is aimed at current and
+  prospective industry partners.
+type: guidance
+primary: true
+scope: public-sector
+tags: [cloud, strategy, procurement, ai, security, legacy]
+professions: [architecture, it-operations, engineering]
+owner:
+  organisation: Government Digital Service
+applies_to: Industry partners working, or wanting to work, with government on cloud and digital infrastructure.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/cloud-challenge-book-2026

@@ -26,6 +26,34 @@ types:
     label: Method
     description: A way of working, followed as a sequence of steps.
     layout: steps
+  resource:
+    label: Resource
+    description: A collection of material to draw on, such as a design system, handbook or learning hub.
+    layout: tool
+  product:
+    label: Product
+    description: A service or platform that teams use or build on.
+    layout: tool
+  blog:
+    label: Blog
+    description: Posts sharing news, work in progress and lessons learnt.
+    layout: media
+
+# How widely an entry is meant to be used, from the whole public sector to one
+# organisation.
+scope:
+  public-sector:
+    label: Public sector
+    description: For use anywhere in the public sector.
+  government:
+    label: Central government
+    description: For central government departments and their bodies.
+  devolved:
+    label: Devolved government
+    description: For one devolved government and its bodies.
+  organisation:
+    label: Single organisation
+    description: Written for one organisation, but may be useful to others as an example.
 
 professions:
   architecture:
@@ -47,11 +75,16 @@ tags:
   accessibility: {label: Accessibility}
   ai: {label: AI}
   api: {label: APIs}
+  careers: {label: Careers}
   cloud: {label: Cloud}
+  communities: {label: Communities}
   data: {label: Data}
+  design: {label: Design}
   devops: {label: DevOps}
   hosting: {label: Hosting}
+  identity: {label: Identity}
   incident-management: {label: Incident management}
+  legacy: {label: Legacy}
   monitoring: {label: Monitoring}
   open-source: {label: Open source}
   open-standards: {label: Open standards}

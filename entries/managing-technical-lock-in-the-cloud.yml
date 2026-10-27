@@ -1,0 +1,19 @@
+id: managing-technical-lock-in-the-cloud
+title: Managing technical lock-in in the cloud
+short_description: Outlines how to make informed choices about your organisation’s reliance on cloud technologies.
+long_description: >-
+  It explains that some lock-in is unavoidable, and how to weigh the cost of
+  switching provider later against the benefits of using a provider's
+  higher-level services. It helps organisations make deliberate choices and
+  plan for exit, rather than avoiding cloud-specific services by default.
+type: guidance
+scope: public-sector
+tags: [cloud, hosting, procurement]
+professions: [architecture, engineering, it-operations]
+owner:
+  organisation: Government Digital Service
+applies_to: Public sector organisations choosing and using cloud services.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/guidance/managing-technical-lock-in-in-the-cloud

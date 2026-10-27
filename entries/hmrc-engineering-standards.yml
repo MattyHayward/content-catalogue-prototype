@@ -1,0 +1,18 @@
+id: hmrc-engineering-standards
+title: "Engineering Standards: HMRC"
+short_description: Engineering standards for HM Revenue & Customs
+long_description: >-
+  It covers the principles, practices and technology HMRC engineers follow
+  when building and running digital services. It is published openly so that
+  others can learn from HMRC's approach.
+type: standard
+scope: organisation
+tags: [software-development, devops, security]
+professions: [engineering, it-operations]
+owner:
+  organisation: HM Revenue & Customs
+applies_to: Engineers building and running HMRC digital services.
+source:
+  type: external
+  name: HM Revenue & Customs
+  path: https://engineering.hmrc.gov.uk/

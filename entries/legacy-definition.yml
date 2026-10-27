@@ -1,0 +1,20 @@
+id: legacy-definition
+title: Definition of Legacy IT
+short_description: Explains how the public sector currently defines the term ‘legacy IT’
+long_description: >-
+  The updated definition treats legacy as more than age: a system can be
+  legacy if it is end of life, out of supplier support, impossible to update,
+  no longer cost-effective or above acceptable risk. Organisations use it with
+  the legacy IT risk assessment framework to identify and prioritise systems.
+type: guidance
+scope: public-sector
+tags: [strategy, legacy]
+professions: [architecture, it-operations]
+owner:
+  organisation: Government Digital Service
+applies_to: Public sector organisations assessing whether their systems count as legacy.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/guidance-on-the-legacy-it-risk-assessment-framework/updated-definition-of-legacy-it
+related: [legacy-it-risk-assessment-framework]

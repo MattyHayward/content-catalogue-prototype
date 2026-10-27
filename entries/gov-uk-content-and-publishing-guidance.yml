@@ -1,0 +1,19 @@
+id: gov-uk-content-and-publishing-guidance
+title: GOV.UK Content and publishing guidance
+short_description: Read the guidance for digital content and find out how to use the government’s publishing tools.
+long_description: >-
+  It covers the GOV.UK style guide, how to write for GOV.UK, choosing the
+  right content type, and how to use Whitehall Publisher and the other
+  publishing applications. It is for publishers and content designers who
+  create and maintain content on GOV.UK.
+type: guidance
+scope: public-sector
+tags: [service-design, accessibility, design]
+professions: [user-centred-design]
+owner:
+  organisation: Government Digital Service
+applies_to: Publishers and content designers in organisations that publish on GOV.UK.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://guidance.publishing.service.gov.uk/

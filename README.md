@@ -34,25 +34,30 @@ python scripts/validate.py
 | --- | --- | --- |
 | `id` | yes | Lower case and hyphens. Must match the file name. It becomes the entry's address on the site (`/<id>/`), so don't change it once published. |
 | `title` | yes | The entry's name, as its owner publishes it. |
-| `short_description` | yes | One sentence, up to 160 characters, for the card that links to the entry. |
+| `short_description` | yes | One sentence, up to 180 characters, for the card that links to the entry. |
 | `long_description` | yes | The opening paragraph of the entry's front page, up to 1,200 characters. |
 | `type` | yes | One value from `types` in `vocabularies.yml`. It decides the page layout. |
+| `primary` | no | `true` to rank the entry above others where they compete, for example in search and filtered lists. Defaults to `false`. |
+| `scope` | yes | One value from `scope`: how widely the entry is meant to be used, from the whole public sector to a single organisation. |
 | `tags` | yes | One or more topics from `tags`, used for filtering. |
 | `professions` | yes | One or more from `professions`: who the entry is for. |
 | `owner` | yes | `organisation`, and optionally `team` and a `contact` (`email`, `url` or `slack`). |
 | `source` | yes | Where the content is (see below). |
 | `status` | no | `current` (default), `draft` (not shown on the site) or `withdrawn` (shown with a withdrawn notice). |
-| `applies_to` | no | For standards and policy: who must follow it. One sentence. |
+| `applies_to` | no | Who the entry is for, or for standards and policy, who must follow it. One sentence. |
 | `related` | no | Ids of other entries to link to. |
 
 
 ## Sources
 
-| `kind` | Fields | The site |
-| --- | --- | --- |
-| `repo` | `url` (GitHub), `branch` (default `main`), `path` (optional directory), `ref` (optional tag or commit to pin) | Syncs the repository and serves its pages under `/<id>/`. The repository can use the `guidance.yml` format or be a tech-docs site. |
-| `path` | `path`, a directory under `content/` with a `guidance.yml` | As `repo`, but the content is held here. |
-| `link` | `url` | Serves a summary page under `/<id>/` with the descriptions, owner and a link to the content where it is published. |
+Every source has a `type`, a `name` (where it is published, for example
+`GOV.UK`, shown next to the link) and a `path`.
+
+| `type` | `path` | Other fields | The site |
+| --- | --- | --- | --- |
+| `external` | The `https://` address where it is published | | Serves a summary page under `/<id>/` with the descriptions, owner and a link to the content. |
+| `repo` | The GitHub repository, as `owner/name` | `branch` (default `main`), `directory` (optional), `ref` (optional tag or commit to pin) | Syncs the repository and serves its pages under `/<id>/`. The repository can use the `guidance.yml` format or be a tech-docs site. |
+| `hosted` | A directory under `content/` with a `guidance.yml` | | As `repo`, but the content is held here. |
 
 Pinning a `repo` source with `ref` means changes in that repository only
 reach the site when this repository is updated to a new `ref`, and so only
@@ -69,8 +74,10 @@ Each type in `vocabularies.yml` names one of these layouts:
 | `policy` | policy, strategy | The policy statement and who it applies to, the owner, and the latest change. |
 | `guide` | guidance | A front page, then pages with the side navigation. |
 | `steps` | method | The pages as numbered steps, in order, with previous and next links. |
+| `tool` | resource, product | What it is, who owns it and a link to use it. |
+| `media` | blog | What it covers, who writes it and a link to read it. |
 
-A `link` entry uses its type's layout for its summary page.
+An `external` entry uses its type's layout for its summary page.
 
 
 ## Licence

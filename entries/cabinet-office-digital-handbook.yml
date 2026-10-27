@@ -1,0 +1,20 @@
+id: cabinet-office-digital-handbook
+title: Cabinet Office Digital Handbook
+short_description: Handbook describing the digital landscape within the Cabinet Office
+long_description: >-
+  It brings together the principles, policies, standards and guidance Cabinet
+  Office digital teams follow, covering topics such as cloud platforms,
+  software engineering, data, accessibility and legacy systems. It helps staff
+  and suppliers deliver work that aligns with government policy and good
+  practice.
+type: guidance
+scope: organisation
+tags: [cloud, software-development, data, accessibility, legacy]
+professions: [engineering, architecture, it-operations, product-and-delivery, data]
+owner:
+  organisation: Cabinet Office
+applies_to: Cabinet Office staff and suppliers working on digital projects.
+source:
+  type: external
+  name: Cabinet Office
+  path: https://digital-handbook.cabinetoffice.gov.uk/

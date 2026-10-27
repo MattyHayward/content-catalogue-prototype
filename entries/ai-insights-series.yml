@@ -1,0 +1,20 @@
+id: ai-insights-series
+title: AI Insights Series
+short_description: Offers government departments and public sector organisations technical guidance on implementing AI solutions effectively, safely and securely.
+long_description: >-
+  Each insight covers one technical topic in depth, including generative AI,
+  prompt engineering and prompt risks, agentic AI, retrieval-augmented
+  generation (RAG), AI coding assistants, synthetic data, model distillation
+  and bias in large language models. It complements the AI Playbook with
+  practical implementation advice.
+type: guidance
+scope: government
+tags: [ai, data, security, software-development]
+professions: [data, engineering, architecture]
+owner:
+  organisation: Government Digital Service
+applies_to: Technical teams in government and the public sector implementing AI solutions.
+source:
+  type: external
+  name: GOV.UK
+  path: https://www.gov.uk/government/publications/ai-insights

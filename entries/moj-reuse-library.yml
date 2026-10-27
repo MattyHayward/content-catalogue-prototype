@@ -1,0 +1,19 @@
+id: moj-reuse-library
+title: MoJ Reuse Library
+short_description: Bringing together reusable elements for all departments to use
+long_description: >-
+  It brings together components, patterns, design systems, guidance and other
+  reusable work from teams across government, along with research and design
+  histories. It helps teams find existing work and connect with others working
+  on similar problems.
+type: resource
+scope: government
+tags: [service-design, open-source, communities, design]
+professions: [user-centred-design, engineering, product-and-delivery]
+owner:
+  organisation: Ministry of Justice
+applies_to: Teams across government looking for work to reuse, and teams with work to share.
+source:
+  type: external
+  name: Ministry of Justice
+  path: https://reuselibrary.service.justice.gov.uk/new-starter-guide

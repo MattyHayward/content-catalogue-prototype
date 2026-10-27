@@ -1,0 +1,18 @@
+id: nhs-engineering-standards
+title: "Engineering Standards: NHS BSA"
+short_description: Engineering standards for the NHS Business Services Authority
+long_description: >-
+  The NHS BSA Digital Playbook describes how its digital teams work, including
+  engineering principles and standards, delivery practices and the tools they
+  use. It is published openly on GitHub Pages.
+type: standard
+scope: organisation
+tags: [software-development, devops]
+professions: [engineering, product-and-delivery, it-operations]
+owner:
+  organisation: NHS Business Services Authority
+applies_to: Digital teams at the NHS Business Services Authority.
+source:
+  type: external
+  name: NHS
+  path: https://nhsbsa.github.io/nhsbsa-digital-playbook/

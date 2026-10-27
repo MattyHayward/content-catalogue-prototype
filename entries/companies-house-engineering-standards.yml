@@ -1,0 +1,18 @@
+id: companies-house-engineering-standards
+title: "Engineering Standards: Companies House"
+short_description: Engineering standards for Companies House
+long_description: >-
+  Published on GitHub, the style guides set conventions for writing code in
+  the languages Companies House uses, alongside general development practices.
+  They help keep code consistent and easier to maintain across teams.
+type: standard
+scope: organisation
+tags: [software-development, open-source]
+professions: [engineering]
+owner:
+  organisation: Companies House
+applies_to: Developers working on Companies House code.
+source:
+  type: external
+  name: Companies House
+  path: https://github.com/companieshouse/styleguides

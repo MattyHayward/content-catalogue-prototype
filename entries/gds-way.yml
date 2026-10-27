@@ -1,13 +1,13 @@
 id: gds-way
 title: The GDS Way
-short_description: How GDS teams build and run software, from choosing languages to handling incidents
+short_description: Guides teams in GDS to build and operate brilliant, cost-effective digital services
 long_description: >-
-  The GDS Way documents the standards and guidance that teams in GDS Digital
-  Products follow to build and operate digital services: the technology, tools
-  and processes they use, from code review and continuous delivery to hosting,
-  monitoring and incident management. It is written for GDS, and is a useful
-  reference for teams elsewhere in government.
+  It documents the technology, tools and processes GDS Digital Products teams
+  use, from code review and continuous delivery to hosting, monitoring and
+  incident management. It is written for GDS, and is a useful reference for
+  teams elsewhere in government.
 type: guidance
+scope: organisation
 tags: [software-development, devops, hosting, monitoring, incident-management, security, open-source]
 professions: [engineering, architecture, it-operations]
 owner:
@@ -15,8 +15,9 @@ owner:
   team: GDS Way Forum
   contact:
     email: the-gds-way@digital.cabinet-office.gov.uk
+applies_to: Teams in GDS. Teams elsewhere in government can use it as a reference for their own practices.
 source:
-  kind: repo
-  url: https://github.com/alphagov/gds-way
-  branch: main
+  type: external
+  name: Government Digital Service
+  path: https://gds-way.digital.cabinet-office.gov.uk/
 related: [service-manual, technology-code-of-practice]

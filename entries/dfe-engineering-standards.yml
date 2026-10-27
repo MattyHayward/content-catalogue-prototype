@@ -1,0 +1,19 @@
+id: dfe-engineering-standards
+title: "Engineering Standards: DfE"
+short_description: Technical guidance for the Department for Education
+long_description: >-
+  It covers the technology standards, recommended tools and practices DfE
+  digital teams use to build and run services, including development
+  practices, hosting and security. It is published openly and is a useful
+  example for other organisations writing their own technical guidance.
+type: standard
+scope: organisation
+tags: [software-development, devops, hosting, security]
+professions: [engineering, architecture, it-operations]
+owner:
+  organisation: Department for Education
+applies_to: Teams and suppliers building and running DfE digital services.
+source:
+  type: external
+  name: Department for Education
+  path: https://technical-guidance.education.gov.uk/

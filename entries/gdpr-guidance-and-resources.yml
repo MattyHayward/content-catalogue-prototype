@@ -1,0 +1,20 @@
+id: gdpr-guidance-and-resources
+title: UK GDPR guidance and resources
+short_description: Guidance and tools to help organisations comply with UK GDPR
+long_description: >-
+  The ICO explains each part of the UK General Data Protection Regulation,
+  including the lawful bases for processing, individuals' rights,
+  accountability and data protection impact assessments. It also offers
+  checklists and templates to help organisations put compliance into practice.
+type: guidance
+primary: true
+scope: public-sector
+tags: [data, security]
+professions: [data, cyber-security, product-and-delivery, architecture]
+owner:
+  organisation: Information Commissioner's Office
+applies_to: Any organisation processing personal data in the UK, including public sector bodies.
+source:
+  type: external
+  name: Information Commissioner's Office
+  path: https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/

@@ -1,0 +1,20 @@
+id: blog-accessibility-in-government
+title: Accessibility in government
+short_description: Documenting how we're rebuilding inclusive digital services across the UK Government.
+long_description: >-
+  Posts from GDS and teams across government share accessibility research,
+  lessons from auditing and testing services, and updates on the accessibility
+  regulations and how public sector websites are monitored. It is a good way
+  to keep up with inclusive design in practice.
+type: blog
+primary: true
+scope: government
+tags: [accessibility, service-design]
+professions: [user-centred-design, engineering, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: Anyone designing, building or testing public services who wants to make them accessible.
+source:
+  type: external
+  name: GOV.UK Blogs
+  path: https://accessibility.blog.gov.uk/

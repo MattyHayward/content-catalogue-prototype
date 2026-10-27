@@ -1,0 +1,19 @@
+id: blog-gds
+title: GDS Blog
+short_description: We are the digital centre of government. We serve the public, central government departments and the wider public sector
+long_description: >-
+  It is the main blog for the Government Digital Service, sharing news,
+  progress and lessons from GDS programmes such as GOV.UK, GOV.UK One Login
+  and the plans for modern digital government.
+type: blog
+primary: true
+scope: government
+tags: [strategy, service-design]
+professions: [architecture, engineering, it-operations, data, cyber-security, product-and-delivery, user-centred-design]
+owner:
+  organisation: Government Digital Service
+applies_to: Anyone interested in GDS's work and in digital government.
+source:
+  type: external
+  name: Government Digital Service
+  path: https://gds.blog.gov.uk/
