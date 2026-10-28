@@ -1,0 +1,27 @@
+# Example of guidance held in another repository, to test the repo source.
+# The same content as gds-way, so it stays a draft.
+id: example-gds-way-repo
+title: The GDS Way
+short_description: Guides teams in GDS to build and operate brilliant, cost-effective digital services
+long_description: >-
+  It documents the technology, tools and processes GDS Digital Products teams
+  use, from code review and continuous delivery to hosting, monitoring and
+  incident management. It is written for GDS, and is a useful reference for
+  teams elsewhere in government.
+type: guidance
+scope: organisation
+tags: [software-development, devops, hosting, monitoring, incident-management, security, open-source]
+professions: [engineering, architecture, it-operations]
+owner:
+  organisation: Government Digital Service
+  team: GDS Way Forum
+  contact:
+    email: the-gds-way@digital.cabinet-office.gov.uk
+applies_to: Teams in GDS. Teams elsewhere in government can use it as a reference for their own practices.
+source:
+  type: repo
+  name: GitHub
+  path: alphagov/gds-way
+  branch: main
+  directory: source
+related: [gds-way]

@@ -5,7 +5,7 @@ long_description: >-
   The Technology Code of Practice (TCoP) is a cross-government agreed standard
   used for the Cabinet Office spend control process and the Local Digital
   Declaration.
-type: guidance
+type: standard
 primary: true
 scope: public-sector
 tags: [cloud, open-source, open-standards, security, accessibility, procurement, sustainability, spend-controls]

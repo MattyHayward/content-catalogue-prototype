@@ -1,0 +1,25 @@
+# Example of a standard held in this repository, using the requirements
+# layout. A copy of the Technology Code of Practice on GOV.UK.
+schema: guidance-as-code/v0
+title: The Technology Code of Practice
+owner:
+  default: Government Digital Service
+anchors: github
+content_dir: .
+index: index.md
+# Numbered in this order. Each page's front matter has the summary shown on
+# the front page.
+requirements:
+  - define-user-needs.md
+  - make-things-accessible.md
+  - be-open-and-use-open-source.md
+  - make-use-of-open-standards.md
+  - use-cloud-first.md
+  - make-things-secure.md
+  - make-privacy-integral.md
+  - share-and-reuse-technology.md
+  - integrate-and-adapt-technology.md
+  - make-better-use-of-data.md
+  - define-your-purchasing-strategy.md
+  - make-your-technology-sustainable.md
+  - meet-the-service-standard.md

@@ -4,7 +4,7 @@ short_description: Use this design system to make government services consistent
 long_description: >-
   Learn from the research and experience of other service teams and avoid
   repeating work that’s already been done.
-type: product
+type: resource
 primary: true
 scope: government
 tags: [service-design, accessibility, open-source, design]

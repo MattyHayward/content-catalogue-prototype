@@ -1,0 +1,22 @@
+# Example of a policy held in this repository, to test the policy layout.
+# Its content is only a structure so far, so it stays a draft.
+id: example-byod-mobiles-policy
+title: Government Cyber Security Policy – Bring Your Own Device (BYOD) Mobiles
+short_description: When government departments and their arm's-length bodies may let staff use their own phones and tablets for lower-risk corporate data
+long_description: >-
+  It sets out the limited circumstances in which departments and their
+  arm's-length bodies may allow a bring your own device (BYOD) model for
+  personally owned mobile phones and tablets, restricted to limited,
+  lower-risk corporate data. It covers who the policy is for, what it covers
+  and the risks it addresses.
+type: policy
+scope: government
+tags: [security]
+professions: [cyber-security, it-operations, architecture]
+owner:
+  organisation: Government Cyber Unit
+applies_to: Government departments and their arm's-length bodies.
+source:
+  type: hosted
+  name: tech.gov.uk
+  path: content/example-byod-mobiles-policy

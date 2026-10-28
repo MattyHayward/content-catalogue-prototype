@@ -71,13 +71,26 @@ Each type in `vocabularies.yml` names one of these layouts:
 | Layout | Used by | Shows |
 | --- | --- | --- |
 | `requirements` | standard, principles | Who it applies to, then the numbered requirements or principles, each with its own page where the source has them. |
-| `policy` | policy, strategy | The policy statement and who it applies to, the owner, and the latest change. |
-| `guide` | guidance | A front page, then pages with the side navigation. |
+| `policy` | policy | The policy's sections in order, each one expandable, with who it applies to, the owner and the latest change. |
+| `guide` | guidance, strategy | A front page, then pages with the side navigation. |
 | `steps` | method | The pages as numbered steps, in order, with previous and next links. |
 | `tool` | resource, product | What it is, who owns it and a link to use it. |
 | `media` | blog | What it covers, who writes it and a link to read it. |
 
 An `external` entry uses its type's layout for its summary page.
+
+
+## Hosted content
+
+A `hosted` source is a directory under `content/` with a `guidance.yml` and
+Markdown pages. Each page starts with front matter giving at least its
+`title`. How the pages are arranged depends on the entry's layout:
+
+| Layout | In `guidance.yml` | Example |
+| --- | --- | --- |
+| `requirements` | `index` for the front page, and `requirements`: the pages in order. They are numbered in that order, and each page's front matter has a `summary` for the front page's list. | `content/example-technology-code-of-practice` |
+| `policy` | `index` only. The page has one `##` section for each part of the policy, in order, shown as expandable sections. | `content/example-byod-mobiles-policy` |
+| `guide`, `steps` | `index`, and `navigation`: groups of pages, each with a `title`. | `content/incident-reviews` |
 
 
 ## Licence

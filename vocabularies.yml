@@ -17,7 +17,7 @@ types:
   strategy:
     label: Strategy
     description: Direction and priorities for government, with the commitments that come from them.
-    layout: policy
+    layout: guide
   guidance:
     label: Guidance
     description: Advice on how to do something well, to apply with judgement.

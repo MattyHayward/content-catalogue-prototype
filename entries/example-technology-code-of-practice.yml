@@ -1,0 +1,21 @@
+# Example of a standard held in this repository, to test the requirements
+# layout. A copy of technology-code-of-practice, so it stays a draft.
+id: example-technology-code-of-practice
+title: The Technology Code of Practice
+short_description: A set of criteria to help government design, build and buy technology.
+long_description: >-
+  The Technology Code of Practice (TCoP) is a cross-government agreed standard
+  used for the Cabinet Office spend control process and the Local Digital
+  Declaration.
+type: standard
+scope: public-sector
+tags: [cloud, open-source, open-standards, security, accessibility, procurement, sustainability, spend-controls]
+professions: [architecture, engineering, it-operations, product-and-delivery]
+owner:
+  organisation: Government Digital Service
+applies_to: Government organisations designing, building or buying technology, including spending assessed through spend controls.
+source:
+  type: hosted
+  name: tech.gov.uk
+  path: content/example-technology-code-of-practice
+related: [technology-code-of-practice]

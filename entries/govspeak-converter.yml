@@ -5,7 +5,7 @@ long_description: >-
   Govspeak is the markdown variant GOV.UK uses for content. The tool converts
   content into Govspeak and previews how it will look, which helps publishers
   prepare content before it goes into the publishing applications.
-type: resource
+type: product
 scope: government
 tags: [design]
 professions: [user-centred-design]

@@ -1,0 +1,9 @@
+# Example of a policy held in this repository, using the policy layout.
+# Only the structure so far: index.md says how to fill it in.
+schema: guidance-as-code/v0
+title: Government Cyber Security Policy – Bring Your Own Device (BYOD) Mobiles
+owner:
+  default: Government Cyber Unit
+anchors: github
+content_dir: .
+index: index.md
