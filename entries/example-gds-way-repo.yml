@@ -23,5 +23,4 @@ source:
   name: GitHub
   path: alphagov/gds-way
   branch: main
-  directory: source
 related: [gds-way]

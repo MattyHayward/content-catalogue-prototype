@@ -1,0 +1,37 @@
+# Example of a product with its own page on the site, to test the tool layout.
+# Its links and version are on the entry, so it needs no content directory.
+id: example-gov-uk-notify
+title: GOV.UK Notify
+short_description: Send emails, text messages and letters to your users
+long_description: >-
+  Teams can send messages from templates through the web interface or by
+  integrating with the API, and track whether they were delivered. Emails are
+  free, each service gets a free allowance of text messages, and letters are
+  charged at cost.
+type: product
+scope: government
+tags: [api, service-design]
+professions: [engineering, product-and-delivery, user-centred-design]
+owner:
+  organisation: Government Digital Service
+  contact:
+    url: https://www.notifications.service.gov.uk/support
+applies_to: Teams in central government, local government and the NHS that send messages to their users.
+version: API v2
+links:
+  - title: Use GOV.UK Notify
+    url: https://www.notifications.service.gov.uk/
+    description: Sign in or create an account to start sending messages.
+  - title: Documentation
+    url: https://docs.notifications.service.gov.uk/
+    description: Integrate with the API using a client library for your language.
+  - title: Source code
+    url: https://github.com/alphagov/notifications-api
+    description: The code behind Notify, published on GitHub.
+  - title: Get support
+    url: https://www.notifications.service.gov.uk/support
+source:
+  type: external
+  name: Government Digital Service
+  path: https://www.notifications.service.gov.uk/
+related: [gov-uk-notify]

@@ -2,7 +2,8 @@
 
 The JSON Schemas check each file's shape. This also checks what a schema
 cannot: that each entry's id matches its file name, that its type, scope,
-tags and professions come from vocabularies.yml, that every id
+tags and professions come from vocabularies.yml, that each type's group
+exists, that only tool-layout entries carry a version and links, that every id
 the catalogue refers to exists, and that each hosted source's directory has a
 guidance.yml.
 
@@ -17,7 +18,8 @@ import yaml
 from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parent.parent
-VOCABULARY_NAMES = ("types", "scope", "professions", "tags")
+# Groups first: each type's group is checked against them.
+VOCABULARY_NAMES = ("groups", "types", "scope", "professions", "tags")
 LAYOUTS = ("requirements", "policy", "guide", "steps", "tool", "media")
 
 
@@ -42,10 +44,12 @@ def schema_errors(check: Draft202012Validator, data, name: str) -> list[str]:
     ]
 
 
-def check_vocabularies(vocabularies, errors: list[str]) -> dict[str, set[str]]:
+def check_vocabularies(vocabularies, errors: list[str]) -> tuple[dict[str, set[str]], dict[str, str]]:
+    """The known values of each vocabulary, and each type's layout."""
+    layouts: dict[str, str] = {}
     if not isinstance(vocabularies, dict):
-        errors.append("vocabularies: expected a mapping of types, scope, professions and tags")
-        return {name: set() for name in VOCABULARY_NAMES}
+        errors.append("vocabularies: expected a mapping of groups, types, scope, professions and tags")
+        return {name: set() for name in VOCABULARY_NAMES}, layouts
     known = {}
     for name in VOCABULARY_NAMES:
         values = vocabularies.get(name)
@@ -56,12 +60,17 @@ def check_vocabularies(vocabularies, errors: list[str]) -> dict[str, set[str]]:
         for key, value in values.items():
             if not isinstance(value, dict) or not value.get("label"):
                 errors.append(f"vocabularies: {name}.{key} needs a label")
-            if name == "types" and isinstance(value, dict) and value.get("layout") not in LAYOUTS:
-                errors.append(
-                    f"vocabularies: types.{key} needs a layout of {', '.join(LAYOUTS)}"
-                )
+            if name == "types" and isinstance(value, dict):
+                if value.get("layout") not in LAYOUTS:
+                    errors.append(
+                        f"vocabularies: types.{key} needs a layout of {', '.join(LAYOUTS)}"
+                    )
+                layouts[key] = value.get("layout")
+                # No group is allowed: the type's entries are then not listed.
+                if "group" in value and value["group"] not in known["groups"]:
+                    errors.append(f"vocabularies: types.{key} group '{value['group']}' is not in groups")
         known[name] = set(values)
-    return known
+    return known, layouts
 
 
 def main() -> int:
@@ -74,7 +83,7 @@ def main() -> int:
     if errors:
         return report(errors)
 
-    known = check_vocabularies(load_yaml(ROOT / catalogue["vocabularies"], errors), errors)
+    known, layouts = check_vocabularies(load_yaml(ROOT / catalogue["vocabularies"], errors), errors)
 
     entry_check = validator("entry.schema.json")
     # Every entry file's id is its file name, so a reference to it resolves
@@ -102,6 +111,10 @@ def main() -> int:
     for entry_id, (name, entry) in entries.items():
         if entry["type"] not in known["types"]:
             errors.append(f"{name}: type '{entry['type']}' is not in vocabularies.yml")
+        if layouts.get(entry["type"]) != "tool":
+            for field in ("version", "links"):
+                if field in entry:
+                    errors.append(f"{name}: {field} is only for tool-layout types (resource, product)")
         if entry["scope"] not in known["scope"]:
             errors.append(f"{name}: scope '{entry['scope']}' is not in vocabularies.yml")
         for field in ("tags", "professions"):

@@ -1,39 +1,69 @@
 # The values entries may use. A new value needs adding here first, so
 # filters on the site stay consistent.
 
+# The sections of the site. Each type below names the group its entries are
+# listed in; a type with no group (blog) is not listed on the site. Groups are
+# shown in this order, and each id is its address on the site.
+groups:
+  standards-and-policies:
+    label: Standards and policies
+    description: What government expects of the technology it designs, builds and buys, and of the teams that run it.
+  guidance:
+    label: Guidance
+    description: Advice and methods for doing the work well, to apply with judgement.
+  resources-and-tools:
+    label: Resources and tools
+    description: Design systems, platforms, products and collections of material that teams can use and build on.
+
 types:
   standard:
     label: Standard
+    plural: Standards
     description: Requirements that services, teams or organisations are expected to meet, and are often assessed against.
     layout: requirements
+    group: standards-and-policies
   principles:
     label: Principles
+    plural: Principles
     description: A short set of principles to apply, without detailed requirements.
     layout: requirements
+    group: standards-and-policies
   policy:
     label: Policy
+    plural: Policies
     description: A government position that organisations are expected to follow.
     layout: policy
+    group: standards-and-policies
   strategy:
     label: Strategy
+    plural: Strategies
     description: Direction and priorities for government, with the commitments that come from them.
     layout: guide
+    group: standards-and-policies
   guidance:
     label: Guidance
+    plural: Guidance
     description: Advice on how to do something well, to apply with judgement.
     layout: guide
+    group: guidance
   method:
     label: Method
+    plural: Methods
     description: A way of working, followed as a sequence of steps.
     layout: steps
+    group: guidance
   resource:
     label: Resource
+    plural: Resources
     description: A collection of material to draw on, such as a design system, handbook or learning hub.
     layout: tool
+    group: resources-and-tools
   product:
     label: Product
+    plural: Products
     description: A service or platform that teams use or build on.
     layout: tool
+    group: resources-and-tools
   blog:
     label: Blog
     description: Posts sharing news, work in progress and lessons learnt.

@@ -5,9 +5,8 @@ owner:
 anchors: github
 content_dir: .
 index: index.md
-navigation:
-  - title: Steps
-    pages:
-      - before-the-review.md
-      - running-the-review.md
-      - after-the-review.md
+# Numbered in this order.
+steps:
+  - before-the-review.md
+  - running-the-review.md
+  - after-the-review.md

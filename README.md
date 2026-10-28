@@ -32,11 +32,11 @@ python scripts/validate.py
 
 | Field | Required | What it is |
 | --- | --- | --- |
-| `id` | yes | Lower case and hyphens. Must match the file name. It becomes the entry's address on the site (`/<id>/`), so don't change it once published. |
+| `id` | yes | Lower case and hyphens. Must match the file name. It becomes the entry's address on the site (`/<group>/<id>/`), so don't change it once published. |
 | `title` | yes | The entry's name, as its owner publishes it. |
 | `short_description` | yes | One sentence, up to 180 characters, for the card that links to the entry. |
 | `long_description` | yes | The opening paragraph of the entry's front page, up to 1,200 characters. |
-| `type` | yes | One value from `types` in `vocabularies.yml`. It decides the page layout. |
+| `type` | yes | One value from `types` in `vocabularies.yml`. It decides the group the entry is listed in and its page layout. |
 | `primary` | no | `true` to rank the entry above others where they compete, for example in search and filtered lists. Defaults to `false`. |
 | `scope` | yes | One value from `scope`: how widely the entry is meant to be used, from the whole public sector to a single organisation. |
 | `tags` | yes | One or more topics from `tags`, used for filtering. |
@@ -46,6 +46,8 @@ python scripts/validate.py
 | `status` | no | `current` (default), `draft` (not shown on the site) or `withdrawn` (shown with a withdrawn notice). |
 | `applies_to` | no | Who the entry is for, or for standards and policy, who must follow it. One sentence. |
 | `related` | no | Ids of other entries to link to. |
+| `version` | no | Tool-layout types (resource, product) only: the version to show, for example `API v2`. |
+| `links` | no | Tool-layout types only: the tool's links, each with a `title`, an `https://` `url` and an optional `description`. With links, the entry gets its own page; without them it links straight to its source. |
 
 
 ## Sources
@@ -55,13 +57,26 @@ Every source has a `type`, a `name` (where it is published, for example
 
 | `type` | `path` | Other fields | The site |
 | --- | --- | --- | --- |
-| `external` | The `https://` address where it is published | | Serves a summary page under `/<id>/` with the descriptions, owner and a link to the content. |
-| `repo` | The GitHub repository, as `owner/name` | `branch` (default `main`), `directory` (optional), `ref` (optional tag or commit to pin) | Syncs the repository and serves its pages under `/<id>/`. The repository can use the `guidance.yml` format or be a tech-docs site. |
+| `external` | The `https://` address where it is published | | Lists the entry, and its card links straight to the address. There is no page for it on the site, unless it is a tool with `links`. |
+| `repo` | The GitHub repository, as `owner/name` | `branch` (default `main`), `directory` (optional), `ref` (optional tag or commit to pin) | Syncs the repository and serves its pages under `/<group>/<id>/`. The repository can use the `guidance.yml` format or be a tech-docs site. A tech-docs site is read from the repository root, so leave out `directory`. |
 | `hosted` | A directory under `content/` with a `guidance.yml` | | As `repo`, but the content is held here. |
 
 Pinning a `repo` source with `ref` means changes in that repository only
 reach the site when this repository is updated to a new `ref`, and so only
 after review here.
+
+
+## Groups
+
+The site lists entries in the groups defined under `groups` in
+`vocabularies.yml`, in that order, each at its own address (for example
+`/standards-and-policies/`). Each type names its group. A type with no group,
+such as `blog`, is not listed. On a group's page, entries with
+`primary: true` come first, then the rest in a section for each type, headed
+with the type's `plural`.
+
+Moving a type to another group moves its entries' addresses. The site
+redirects the old addresses.
 
 
 ## Types and layouts
@@ -74,10 +89,11 @@ Each type in `vocabularies.yml` names one of these layouts:
 | `policy` | policy | The policy's sections in order, each one expandable, with who it applies to, the owner and the latest change. |
 | `guide` | guidance, strategy | A front page, then pages with the side navigation. |
 | `steps` | method | The pages as numbered steps, in order, with previous and next links. |
-| `tool` | resource, product | What it is, who owns it and a link to use it. |
+| `tool` | resource, product | What it is, its version, who owns it, and its `links`. |
 | `media` | blog | What it covers, who writes it and a link to read it. |
 
-An `external` entry uses its type's layout for its summary page.
+An `external` entry has no page, so its layout is not used, except for a tool
+with `links`.
 
 
 ## Hosted content
@@ -90,7 +106,8 @@ Markdown pages. Each page starts with front matter giving at least its
 | --- | --- | --- |
 | `requirements` | `index` for the front page, and `requirements`: the pages in order. They are numbered in that order, and each page's front matter has a `summary` for the front page's list. | `content/example-technology-code-of-practice` |
 | `policy` | `index` only. The page has one `##` section for each part of the policy, in order, shown as expandable sections. | `content/example-byod-mobiles-policy` |
-| `guide`, `steps` | `index`, and `navigation`: groups of pages, each with a `title`. | `content/incident-reviews` |
+| `guide` | `index`, and `navigation`: groups of pages, each with a `title`, nested with `pages`. | |
+| `steps` | `index`, and `steps`: the pages in order, numbered in that order. Any `navigation` groups are reference pages outside the numbered steps. | `content/incident-reviews` |
 
 
 ## Licence
