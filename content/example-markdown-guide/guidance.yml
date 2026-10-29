@@ -1,0 +1,23 @@
+# Example of guidance held in this repository, using the guide layout. It
+# shows every kind of Markdown the site renders, and what each becomes.
+schema: guidance-as-code/v0
+title: Writing guidance in Markdown
+owner:
+  default: Technology Excellence
+anchors: github
+content_dir: .
+index: index.md
+navigation:
+  - title: Formatting
+    pages:
+      - path: formatting/text.md
+        pages:
+          - formatting/links.md
+      - formatting/lists.md
+      - formatting/tables.md
+  - title: Components
+    pages:
+      - callouts.md
+      - code.md
+      - images.md
+      - html.md

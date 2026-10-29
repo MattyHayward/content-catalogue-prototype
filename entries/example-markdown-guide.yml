@@ -1,0 +1,22 @@
+# Example of a guide held in this repository, to test the guide layout and
+# show every kind of Markdown the site renders.
+id: example-markdown-guide
+title: Writing guidance in Markdown
+short_description: Every kind of Markdown the site renders, and what each one becomes
+long_description: >-
+  A reference for writing guidance to be held in the catalogue: headings,
+  links, lists, tables, callouts, code, images and the little HTML that is
+  allowed, each shown as it appears on the site.
+type: guidance
+scope: public-sector
+tags: [software-development, design]
+professions: [engineering, architecture, it-operations]
+owner:
+  organisation: Government Digital Service
+  team: Technology Excellence
+applies_to: Anyone writing guidance to be held in the catalogue.
+source:
+  type: hosted
+  name: tech.gov.uk
+  path: content/example-markdown-guide
+related: [incident-reviews]

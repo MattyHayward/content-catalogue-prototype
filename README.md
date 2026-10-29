@@ -106,7 +106,7 @@ Markdown pages. Each page starts with front matter giving at least its
 | --- | --- | --- |
 | `requirements` | `index` for the front page, and `requirements`: the pages in order. They are numbered in that order, and each page's front matter has a `summary` for the front page's list. | `content/example-technology-code-of-practice` |
 | `policy` | `index` only. The page has one `##` section for each part of the policy, in order, shown as expandable sections. | `content/example-byod-mobiles-policy` |
-| `guide` | `index`, and `navigation`: groups of pages, each with a `title`, nested with `pages`. | |
+| `guide` | `index`, and `navigation`: groups of pages, each with a `title`, nested with `pages`. | `content/example-markdown-guide`, which also shows every kind of Markdown the site renders |
 | `steps` | `index`, and `steps`: the pages in order, numbered in that order. Any `navigation` groups are reference pages outside the numbered steps. | `content/incident-reviews` |
 
 
